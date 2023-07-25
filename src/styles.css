@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+section.container {
+  background: url("./assets/1.jpg") center center no-repeat fixed;
+  text-align: center;
+  height: 100vh;
+}
+.overlay {
+  background-color: rgba(0,0,0,0.8);
+  height: 100vh;
+}
+/* #header {
+  text-align: center;
+} */
+ul {
+  list-style: none;
+}
+li {
+  text-align: center;
+}
+
+li a {
+  text-decoration: none !important;
+  color: white;
+}
+
+li a:hover {
+  color: white;
+}
+
+.active {
+  color: yellow !important;
+  text-shadow: 10px 10px 30px  yellow,-10px -10px 30px  yellow;
+}
+
+figure {
+  width: 40%;
+}
+img {
+  filter: opacity(.6);
+}
+
+.studentCard {
+  background-color: transparent;
+  box-shadow: 0 0 10px 2px rgb(79, 78, 78);
+}
+
